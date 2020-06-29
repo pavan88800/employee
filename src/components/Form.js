@@ -3,7 +3,7 @@ import '../App.css';
 const Form = (props) => {
 	return (
 		<Fragment>
-			{props.emps.length > 0 && <h2 className="mt-4 text-center">Employee Data </h2>}
+			{props.emps.length > 1 && <h2 className="mt-4 text-center">Employee Data </h2>}
 			{props.emps.map((user) => (
 				<div className="card text-left mx-auto mt-5 mb-5" id="show" style={{ width: '600px' }}>
 					<ul>
